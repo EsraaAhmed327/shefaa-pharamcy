@@ -1,0 +1,394 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "role": "admin",
+      "name": "Admin User",
+      "email": "admin@shefaa.com",
+      "phone": "01000000000",
+      "password": "admin123",
+      "location": "Cairo",
+      "age": 35,
+      "cart": [],
+      "notifications": [
+        "Profit share from doctor order: 0.30 EGP",
+        "Profit share from doctor order: 0.40 EGP",
+        "Profit share from doctor order: 0.40 EGP",
+        "Profit share from doctor order: 0.30 EGP",
+        "Profit share from doctor order: 0.40 EGP",
+        "Profit share from doctor order: 0.70 EGP",
+        "Profit share from doctor order: 0.30 EGP",
+        "Profit share from doctor order: 0.70 EGP",
+        "Profit share from doctor order: 0.40 EGP"
+      ],
+      "earnings": 5.8999999999999995
+    },
+    {
+      "id": 2,
+      "role": "doctor",
+      "name": "Dr. Ahmed",
+      "email": "doctor@shefaa.com",
+      "phone": "01111111111",
+      "password": "doc123",
+      "location": "Giza",
+      "age": "40",
+      "cart": [],
+      "notifications": [],
+      "earnings": 0
+    },
+    {
+      "id": 3,
+      "role": "user",
+      "name": "raro",
+      "email": "raro@gmail.com",
+      "phone": "987654321",
+      "password": "123456789",
+      "location": "Beni Suef",
+      "age": "20",
+      "cart": [],
+      "notifications": [],
+      "earnings": 0
+    },
+    {
+      "id": 4,
+      "role": "user",
+      "name": "none",
+      "email": "none@gmail.com",
+      "phone": "741852963",
+      "password": "369258147",
+      "location": "Dakahlia",
+      "age": "20",
+      "cart": [],
+      "notifications": [],
+      "earnings": 0
+    },
+    {
+      "id": 5,
+      "role": "user",
+      "name": "esraa",
+      "email": "esraa@gmailcom",
+      "phone": "01159356801",
+      "password": "esraa",
+      "location": "Port Said",
+      "age": "20",
+      "cart": [],
+      "notifications": [],
+      "earnings": 0
+    },
+    {
+      "id": 6,
+      "role": "user",
+      "name": "youssef",
+      "email": "youssef",
+      "phone": "19",
+      "password": "0000",
+      "location": "Monufia",
+      "age": "19",
+      "cart": [],
+      "notifications": [],
+      "earnings": 0
+    }
+  ],
+  "products": [
+    {
+      "id": 8,
+      "name_en": "Multivitamin",
+      "name_ar": "فيتامينات متعددة",
+      "price": 75,
+      "cost": 50,
+      "stock": 20,
+      "category": "vitamins",
+      "popularity": 60,
+      "image_flat": "assets/flat/multivitamin.png",
+      "image_real": "assets/real/multivitamin.png"
+    },
+    {
+      "id": 6,
+      "name_en": "Moisturizing Cream",
+      "name_ar": "كريم مرطب",
+      "price": 60,
+      "cost": 40,
+      "stock": 35,
+      "category": "skincare",
+      "popularity": 65,
+      "image_flat": "assets/flat/moisturizers.png",
+      "image_real": "assets/real/moisturizers.png"
+    },
+    {
+      "id": 5,
+      "name_en": "Vitamin D3",
+      "name_ar": "فيتامين د3",
+      "price": 50,
+      "cost": 35,
+      "stock": 25,
+      "category": "vitamins",
+      "popularity": 70,
+      "image_flat": "assets/flat/vitamin_d.png",
+      "image_real": "assets/real/vitamin_d.png"
+    },
+    {
+      "id": 3,
+      "name_en": "Antiseptic Cream",
+      "name_ar": "كريم مطهر",
+      "price": 45,
+      "cost": 30,
+      "stock": 20,
+      "category": "skincare",
+      "popularity": 75,
+      "image_flat": "assets/flat/antiseptic.png",
+      "image_real": "assets/real/antiseptic.png"
+    },
+    {
+      "id": 2,
+      "name_en": "Vitamin C 1000mg",
+      "name_ar": "فيتامين سي 1000 مجم",
+      "price": 35,
+      "cost": 25,
+      "stock": 28,
+      "category": "vitamins",
+      "popularity": 85,
+      "image_flat": "assets/flat/vitamin_c.png",
+      "image_real": "assets/real/vitamin_c.png"
+    },
+    {
+      "name_en": "vitamin",
+      "name_ar": "فيتامين",
+      "price": 30.0,
+      "cost": 50.0,
+      "stock": 200,
+      "category": "vitamins",
+      "popularity": 50,
+      "image_flat": "assets/flat/vitamin.png",
+      "image_real": "assets/real/vitamin.png",
+      "id": 9
+    },
+    {
+      "id": 4,
+      "name_en": "Ibuprofen",
+      "name_ar": "ايبوبروفين",
+      "price": 25,
+      "cost": 18,
+      "stock": 40,
+      "category": "pain_relief",
+      "popularity": 80,
+      "image_flat": "assets/flat/ibuprofen.png",
+      "image_real": "assets/real/ibuprofen.png"
+    },
+    {
+      "id": 1,
+      "name_en": "Paracetamol",
+      "name_ar": "باراسيتامول",
+      "price": 20,
+      "cost": 15,
+      "stock": 44,
+      "category": "pain_relief",
+      "popularity": 95,
+      "image_flat": "assets/flat/paracetamol.png",
+      "image_real": "assets/real/paracetamol.png"
+    },
+    {
+      "id": 7,
+      "name_en": "Aspirin",
+      "name_ar": "أسبرين",
+      "price": 15,
+      "cost": 10,
+      "stock": 53,
+      "category": "pain_relief",
+      "popularity": 90,
+      "image_flat": "assets/flat/aspirin.png",
+      "image_real": "assets/real/aspirin.png"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "user_id": 5,
+      "user_name": "esraa",
+      "question": "hhhhh",
+      "answer": null
+    },
+    {
+      "id": 2,
+      "user_id": 5,
+      "user_name": "esraa",
+      "question": "tutoitp",
+      "answer": "kpkp[k"
+    },
+    {
+      "id": 3,
+      "user_id": 6,
+      "user_name": "youssef",
+      "question": "ايه الماده الفعاله",
+      "answer": null
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 5,
+      "items": [
+        {
+          "product_id": 1,
+          "qty": 1
+        },
+        {
+          "product_id": 7,
+          "qty": 3
+        },
+        {
+          "product_id": 2,
+          "qty": 1
+        }
+      ],
+      "total": 100,
+      "delivery": 70,
+      "grand_total": 170,
+      "status": "completed",
+      "timestamp": "2024-01-01 12:00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 5,
+      "items": [
+        {
+          "product_id": 7,
+          "qty": 1
+        }
+      ],
+      "total": 15,
+      "delivery": 70,
+      "grand_total": 85,
+      "status": "completed",
+      "timestamp": "2024-01-01 12:00:00"
+    },
+    {
+      "id": 3,
+      "user_id": 6,
+      "items": [
+        {
+          "product_id": 1,
+          "qty": 1
+        }
+      ],
+      "total": 20,
+      "delivery": 70,
+      "grand_total": 90,
+      "status": "completed",
+      "timestamp": "2024-01-01 12:00:00"
+    },
+    {
+      "id": 4,
+      "user_id": 6,
+      "items": [
+        {
+          "product_id": 1,
+          "qty": 1
+        }
+      ],
+      "total": 20,
+      "delivery": 70,
+      "grand_total": 90,
+      "status": "completed",
+      "timestamp": "2024-01-01 12:00:00"
+    },
+    {
+      "id": 5,
+      "user_id": 6,
+      "items": [
+        {
+          "product_id": 7,
+          "qty": 1
+        }
+      ],
+      "total": 15,
+      "delivery": 70,
+      "grand_total": 85,
+      "status": "completed",
+      "timestamp": "2024-01-01 12:00:00"
+    },
+    {
+      "id": 6,
+      "user_id": 6,
+      "items": [
+        {
+          "product_id": 1,
+          "qty": 1
+        }
+      ],
+      "total": 20,
+      "delivery": 70,
+      "grand_total": 90,
+      "status": "completed",
+      "timestamp": "2024-01-01 12:00:00"
+    },
+    {
+      "id": 7,
+      "user_id": 6,
+      "items": [
+        {
+          "product_id": 2,
+          "qty": 1
+        }
+      ],
+      "total": 35,
+      "delivery": 70,
+      "grand_total": 105,
+      "status": "completed",
+      "timestamp": "2024-01-01 12:00:00"
+    },
+    {
+      "id": 8,
+      "user_id": 3,
+      "items": [
+        {
+          "product_id": 7,
+          "qty": 1
+        }
+      ],
+      "total": 15,
+      "delivery": 70,
+      "grand_total": 85,
+      "status": "completed",
+      "timestamp": "2024-01-01 12:00:00"
+    },
+    {
+      "id": 9,
+      "user_id": 3,
+      "items": [
+        {
+          "product_id": 1,
+          "qty": 1
+        },
+        {
+          "product_id": 7,
+          "qty": 1
+        }
+      ],
+      "total": 35,
+      "delivery": 70,
+      "grand_total": 105,
+      "status": "completed",
+      "timestamp": "2024-01-01 12:00:00"
+    },
+    {
+      "id": 10,
+      "user_id": 3,
+      "items": [
+        {
+          "product_id": 1,
+          "qty": 1
+        }
+      ],
+      "total": 20,
+      "delivery": 70,
+      "grand_total": 90,
+      "status": "completed",
+      "timestamp": "2024-01-01 12:00:00"
+    }
+  ],
+  "financial": {
+    "total_sales": 295,
+    "admin_earnings": 5.8999999999999995,
+    "doctor_earnings": 289.1
+  }
+}
